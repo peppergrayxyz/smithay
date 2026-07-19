@@ -1,6 +1,6 @@
 use std::sync::{atomic::Ordering, Arc};
 
-use atomic_float::AtomicF64;
+use portable_atomic::AtomicF64;
 use wayland_server::{
     backend::ClientId,
     protocol::wl_touch::{self, WlTouch},

@@ -124,7 +124,7 @@ use self::tree::{PrivateSurfaceData, SuggestedSurfaceState};
 pub use crate::utils::hook::HookId;
 use crate::utils::Transform;
 use crate::utils::{user_data::UserDataMap, Buffer, Logical, Point, Rectangle};
-use atomic_float::AtomicF64;
+use portable_atomic::AtomicF64;
 use wayland_server::backend::GlobalId;
 use wayland_server::protocol::wl_compositor::WlCompositor;
 use wayland_server::protocol::wl_subcompositor::WlSubcompositor;

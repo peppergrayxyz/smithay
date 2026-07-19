@@ -99,7 +99,7 @@ use crate::{
         xwayland_shell::{self, XWaylandShellHandler},
     },
 };
-use atomic_float::AtomicF64;
+use portable_atomic::AtomicF64;
 use calloop::{generic::Generic, Interest, LoopHandle, Mode, PostAction, RegistrationToken};
 use rustix::fs::OFlags;
 use std::{

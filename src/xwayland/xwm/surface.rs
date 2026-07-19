@@ -13,7 +13,7 @@ use crate::{
     utils::{user_data::UserDataMap, Client, IsAlive, Logical, Rectangle, Serial, Size},
     wayland::compositor,
 };
-use atomic_float::AtomicF64;
+use portable_atomic::AtomicF64;
 use encoding_rs::WINDOWS_1252;
 use std::{
     collections::HashSet,
